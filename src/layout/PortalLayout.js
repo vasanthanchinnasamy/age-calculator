@@ -20,9 +20,9 @@ export const PortalLayout = () => {
   };
 
   return (
-    <div className="grid grid-cols-6 gap-4 bg-blue-200 h-screen">
+    <div className="bg-blue-200 h-screen">
       <div></div>
-      <div className="p-6 col-span-4 rounded border-white border-2">
+      <div className="p-6 ">
         <h2 className="text-2xl font-bold text-black">Age Calculator</h2>
         <div className="py-6 flex flex-wrap gap-4 place-items-center">
           <input
@@ -37,7 +37,7 @@ export const PortalLayout = () => {
             Calculate
           </button>
         </div>
-        <div className="flex flex-wrap gap-4 place-items-center">
+        <div className="">
           <div className="py-6 flex flex-wrap gap-4 place-items-center">
             <input
               value={year}
