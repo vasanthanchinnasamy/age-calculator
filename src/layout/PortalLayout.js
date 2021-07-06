@@ -115,7 +115,7 @@ export const PortalLayout = () => {
 
       <div
         className={
-          "flex flex-col justify-center w-2/5 " + (showToast ? "" : "hidden")
+          "flex flex-col justify-center w-max " + (showToast ? "" : "hidden")
         }
       >
         <div className="flex items-center bg-green-500 border-l-4 border-green-700 py-2 px-3 shadow-md mb-2">
